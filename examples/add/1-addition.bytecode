@@ -1,0 +1,12 @@
+  3           0 LOAD_CONST               0 (1)
+              2 STORE_NAME               0 (a)
+
+  4           4 LOAD_CONST               0 (1)
+              6 STORE_NAME               1 (b)
+
+  5           8 LOAD_NAME                0 (a)
+             10 LOAD_NAME                1 (b)
+             12 BINARY_ADD
+             14 STORE_NAME               2 (c)
+             16 LOAD_CONST               1 (None)
+             18 RETURN_VALUE
